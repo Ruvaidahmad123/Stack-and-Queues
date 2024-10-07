@@ -12,10 +12,6 @@ class Solution {
                 st.push(s.charAt(i));
             }
         }
-        StringBuilder sb=new StringBuilder();
-        while(!st.isEmpty()){
-            sb.append(st.pop());
-        }
-        return sb.length();
+        return st.size();
     }
 }
